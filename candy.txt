@@ -1,10 +1,10 @@
 Let's make a game!
 	name:Candy Maker
-	author:Li Da Pang
+	by:Li Da Pang
 	desc:half-year-birthday present for Xiao Hei!
 	created:21/08/2018
 	updated:24/08/2018
-	version:alpha 0.0.1
+	version:0.0.1
 
 Settings
 	background:https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1535101541977&di=e859dfef7200d0ab0f1b3d037fd101cd&imgtype=0&src=http%3A%2F%2Fp4.so.qhimgs1.com%2Ft01f21a6ce250869d3a.jpg
