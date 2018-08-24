@@ -28,7 +28,7 @@ Buttons
 		no text
 		icon class:shadowed
 		tooltip origin:bottom
-		tootip class:red
+		tooltip class:red
 
 Resources
 	*candy
