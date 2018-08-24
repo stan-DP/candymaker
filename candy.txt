@@ -24,7 +24,7 @@ Buttons
 		desc:Click to make candy!
 		on click:anim icon wobble
 		on click:yield 1 candy
-		icon:http://pic.58pic.com/58pic/15/58/94/31b58PICiUZ_1024.png		
+		icon:https://raw.githubusercontent.com/stan-DP/candymaker/master/candy.png
 		class:bigButton hasFlares
 		no text
 		icon class:shadowed
@@ -32,7 +32,7 @@ Buttons
 		tooltip class:red
 
 Resources
-	*candy
+	*candy|candies
 		name:candy|candies
 		desc:These are your candies
 		show earned
@@ -40,7 +40,7 @@ Resources
 		icon:icons[0,0]
 
 Buildings
-	*worker
+	*dog|dogs
 		name:dog|dogs
 		desc:doggie workers in the factory, good at making candies~(0.5 candy/s)
 		icon:icons[3,0]
