@@ -1,7 +1,7 @@
 Let's make a game!
-	name:棉花糖制造机
-	author:胖大一
-	desc:给小黑的半岁生日礼物——棉花糖制造机！
+	name:Candy Maker
+	author:Li Da Pang
+	desc:half-year-birthday present for Xiao Hei!
 	created:21/08/2018
 	updated:24/08/2018
 	version:alpha 0.0.1
@@ -19,8 +19,8 @@ Layout
 
 Buttons
 	*candyButton	
-		name:糖果制造装置
-		desc:点击装置来制造糖果吧！
+		name:Candy
+		desc:Click to make candy!
 		on click:anim icon wobble
 		on click:yield 1 candy
 		icon:http://pic.58pic.com/58pic/15/58/94/31b58PICiUZ_1024.png		
@@ -32,17 +32,17 @@ Buttons
 
 Resources
 	*candy
-		name:棉花糖
-		desc:这些是你的棉花糖~
+		name:candy|candies
+		desc:These are your candies
 		show earned
 		show max
 		icon:icons[0,0]
 
 Buildings
 	*worker
-		name:小工狗狗
-		desc:工厂里的狗狗小工，做糖果的一把好手！（2棉花糖/秒）
+		name:dog|dogs
+		desc:doggie workers in the factory, good at making candies~(0.5 candy/s)
 		icon:icons[3,0]
-		cost:15 棉花糖
-		on tick:yield 0.5 棉花糖
+		cost:15 candies
+		on tick:yield 0.5 candy
 		
